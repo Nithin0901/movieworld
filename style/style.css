@@ -1,0 +1,120 @@
+<style>
+        *{
+            margin:0;
+            padding:0;
+        }
+           header{ 
+             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif:
+             font-style:italic;
+             font-weight: 700;
+             font-size:90px;            
+             display:flex;
+             position: relative;
+             justify-content:center;
+             margin-left:250px;
+             margin-right: 0px;
+             text-align:center;
+             background: linear-gradient(to top right , #ff00d2,#fed90f,#00a2ff);
+             -webkit-background-clip: text;
+             -webkit-text-fill-color:transparent;
+             
+            
+          } 
+          ::placeholder{ 
+            color: aqua;
+            
+          }
+          input[type=text]{
+            padding: 4px;
+            width: 50%;
+            border: 1px solid blueviolet;
+            background-color: black;
+            color: rgb(204, 237, 18);
+            font-size: medium;
+            font-weight:lighter;
+
+          }
+          input[type=Email]{
+            padding: 4px;
+            width: 50%;
+            border: 1px solid blueviolet;
+            background-color: black;
+            color: rgb(204, 237, 18);
+            font-size: medium;
+            font-weight:lighter; }
+
+            input[type=Password]{
+                padding: 4px;
+                width: 50%;
+                border: 1px solid blueviolet;
+                background-color: black;
+                color: rgb(58, 237, 18);
+                font-size: medium;
+                font-weight:lighter; }
+            
+            
+
+            
+          .NAME{
+            justify-content:space-between;
+            display: flex;
+            margin-top: 10%;
+            margin-left: 30%;
+            padding: 4px;
+            
+        
+          }
+         .Email{  
+            justify-content:space-between;
+            display: flex;
+            
+            margin-left: 30%;
+            padding: 4px;
+         }
+         .Password{ justify-content:space-between;
+            display: flex;
+            border: px solid ;
+            
+            margin-left: 30%;
+            padding: 5px;}
+            
+          
+    
+        body{
+            height:100vh;
+            width:100vw;
+            background:url('../image/pxfuel.jpg');
+            background-size: cover;
+            background-position: center;
+            display:flex;
+            align-items: center;
+        
+        }   
+   button {
+    margin-top: 20px;
+    margin-left: 200px;
+        float:none;
+    border:2px solid rgb(46, 28, 164)  ;
+    font-weight:bold;
+ color:red;
+ background-color: rgb(25, 24, 23);
+ font-weight: 400px;
+ transition: 3s;
+ border-radius:  80px;
+ width: 70px;
+padding:7px;    
+        }
+        button:hover{ 
+            color:rgb(237, 11, 11);
+            background-color: aqua;
+            
+        }
+        
+       
+        .NAME{
+             font-family: 'Times New Roman', Times, serif;
+             font-weight: 500px;
+             color: red;
+        }
+
+    </style>
